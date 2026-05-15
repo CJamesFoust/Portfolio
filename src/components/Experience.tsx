@@ -48,7 +48,6 @@ export default function Experience() {
       </h2>
 
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Tab Buttons */}
         <div className="flex md:flex-col border-l-2 border-secondary overflow-x-auto min-w-[200px]">
           {jobs.map((job) => (
             <button
@@ -65,7 +64,6 @@ export default function Experience() {
           ))}
         </div>
 
-        {/* Tab Content */}
         <div className="flex-1 min-h-[320px]">
           {jobs.map((job) => (
             <motion.div

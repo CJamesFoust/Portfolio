@@ -14,7 +14,6 @@ export default function Hero() {
         </button>
       </div>
       <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-        {/* Placeholder for your illustrated avatar or professional headshot */}
         <div className="w-64 h-64 bg-gradient-to-br from-primary to-blue-500 rounded-full blur-3xl opacity-20 absolute" />
         <img src="/avatar.png" alt="Developer Avatar" className="relative z-10 w-80 h-auto" />
       </div>

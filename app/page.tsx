@@ -14,11 +14,6 @@ export default function Home() {
       <Experience />
       <ProjectGrid />
       <Contact />
-      {/* 
-          Future Sections to implement:
-          - ProjectGrid: Display your work on Chevy Trailblazer diagnostics or room division modeling
-          - Expertise: Highlight JavaScript, React, and PCI-DSS compliance
-      */}
     </main>
   );
 }

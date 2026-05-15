@@ -63,8 +63,6 @@ export default function ProjectGrid() {
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
                 {project.description}
               </p>
-              
-              {/* Specialized data points for the Finance App */}
               {project.stats && (
                 <div className="grid grid-cols-2 gap-4 mb-6 p-3 bg-background/50 rounded-lg border border-secondary/50">
                   <div>
